@@ -1,7 +1,8 @@
 # QuickWork
 # Gmail API
 <h2>SENDING MAIL BY USING GMAIL API WITHOUT CLIENT LIBRARIES</h3>
-you'll require credentials.json for this, I've not provided in github for security reasons
+you'll require credentials.json for this, I've not provided in github for security reasons</br>
+you can download the json for credentials by following up https://console.cloud.google.com/apis/credentials/oauthclient/
 
   * run the code by "node index.js" in terminal</br>
    
