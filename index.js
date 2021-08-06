@@ -18,7 +18,7 @@ fs.readFile(CRED_PATH, (err, content) => {
 let oAuth2Client;
 
 function authorize(credentials) {
-  const { client_secret, client_id, redirect_uris } = credentials.installed;
+  const { client_secret, client_id, redirect_uris } = credentials.web;
   oAuth2Client = new google.auth.OAuth2(
     client_id,
     client_secret,
